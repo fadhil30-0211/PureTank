@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PureTank" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/pure_cy</item>
+        <item name="android:windowBackground">@color/pure_bg</item>
+        <item name="android:statusBarColor">#030C1A</item>
+        <item name="android:navigationBarColor">#030A16</item>
+    </style>
+
+    <style name="Theme.PureTank" parent="Base.Theme.PureTank" />
+</resources>

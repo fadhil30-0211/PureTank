@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pure_bg">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <FrameLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+            <View
+                android:id="@+id/splRing"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/circular_gauge_cyan"
+                android:alpha="0.3" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="💧"
+                android:textSize="42sp" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="PURETANK"
+            android:textColor="@color/pure_cy"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SMART WATER MONITOR"
+            android:textColor="@color/pure_mu"
+            android:textSize="11sp"
+            android:letterSpacing="0.3" />
+
+        <ProgressBar
+            android:id="@+id/splProgress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="160dp"
+            android:layout_height="4dp"
+            android:layout_marginTop="40dp"
+            android:progressDrawable="@drawable/circular_gauge_cyan"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/pure_cy" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

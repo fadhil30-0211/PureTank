@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cyber Futuristic Palette from HTML -->
+    <color name="pure_cy">#00D4FF</color>
+    <color name="pure_cy2">#00AACC</color>
+    <color name="pure_gn">#00FF88</color>
+    <color name="pure_rd">#FF2222</color>
+    <color name="pure_or">#FF8800</color>
+    <color name="pure_yw">#FFCC00</color>
+
+    <color name="pure_bg">#020910</color>
+    <color name="pure_bg2">#070F1E</color>
+    <color name="pure_bg3">#0A1628</color>
+    <color name="pure_card">#E6070F1E</color>
+    <color name="pure_card2">#D900142D</color>
+
+    <color name="pure_br">#0D2A45</color>
+    <color name="pure_br2">#0A1E35</color>
+    <color name="pure_tx">#E0F4FF</color>
+    <color name="pure_mu">#3A7A9A</color>
+    <color name="pure_dm">#1A4060</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
